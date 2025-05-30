@@ -25,7 +25,7 @@ from langchain_community.chat_models import ChatOpenAI
 st.header("Azienda")
 
 from PIL import Image
-logo = Image.open("Leone alato Generali.html")
+logo = Image.open("Leone alato Generali")
 st.image(logo, width=200)
 # st.image(logo, use_column_width=True)
 
