@@ -7,7 +7,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #87cefa;
+        background-color: #ff0000;
         color: #ffffff;
     }
     </style>
@@ -25,7 +25,7 @@ from langchain_community.chat_models import ChatOpenAI
 st.header("Azienda")
 
 from PIL import Image
-logo = Image.open("Robottino HR.jpg")
+logo = Image.open("Leone alato Generali.html")
 st.image(logo, width=200)
 # st.image(logo, use_column_width=True)
 
